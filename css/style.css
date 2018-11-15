@@ -1,0 +1,57 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+header, body{
+	background: #f4f4f4;
+	padding: 0;
+	margin: 0;
+	font: oblique bold 120% cursive;
+	overflow: hidden;
+}
+header{
+	background:#24282b;
+	color:#ffffff;
+	min-height:70px;
+	border-bottom:#1293d4 5px solid;
+	padding-left: 2px;
+}
+.resaltado{
+	font-style: italic;
+}
+.contenedor{
+	width:100%;
+	margin:auto;
+  	overflow:hidden;
+}
+
+body{
+	font-family: arial;
+	font-size: 15px;
+}
+.sctCanvas{
+	background: #24282b;
+}
+
+canvas {
+	/*background-color: #94e8ec;*/
+	background-image: url("../images/fondo/background1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-left: 4px solid #000;
+	border-right: 4px solid #000;
+	border-bottom: 4px solid #000;
+    width:  auto;
+    height: auto;
+    margin: auto;
+    float: center;
+
+}
+footer{
+	background:#24282b;
+	color:#ffffff;
+	border-top:#1293d4 5px solid;
+	padding-left: 2px;
+	width: 100%;
+	position: absolute;
+}
